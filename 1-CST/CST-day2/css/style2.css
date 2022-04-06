@@ -1,0 +1,20 @@
+body{
+    background-color: pink;
+   }
+section {
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+}
+body>ol li:last-child{
+    color:red;
+}
+img{
+    display:block;
+    margin-left: auto;
+    margin-bottom: 200px;
+}
+#next{
+    float :right
+}

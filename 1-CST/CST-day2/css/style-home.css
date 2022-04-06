@@ -1,0 +1,19 @@
+body{
+ background-color: pink;
+}
+h3{
+    text-align: right;
+}
+h3>span{
+    font-family:'Times New Roman', Times, serif;
+    border-bottom: solid 1px;
+}
+img{
+    width: 25%;
+    height: 50%;
+    position:absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+}

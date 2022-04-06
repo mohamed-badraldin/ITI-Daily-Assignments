@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/sign.css">
+    <title>sign</title>
+</head>
+<body>
+    <form action="page3.html">
+        <fieldset>
+            <legend>login</legend>
+            <label for="fn">Frist Name</label>
+            <input type="text" id="fn" name="fn">
+            <br>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="pass">
+            <br>
+            <label for="loc">Location</label>
+            <select name="loc" id="loc">
+                <optgroup label="Africa">
+                    <option value="eg">egypt</option>
+                    <option value="su">sudain</option>
+                    <option value="na">nambia</option>
+                </optgroup>
+                <optgroup label="Europe">
+                    <option value="fa">france</option>
+                    <option value="ru">russia</option>
+                    <option value="uk">UK</option>
+                </optgroup>
+                <optgroup label="Nouth America" disabled>
+                    <option value="ca">canda</option>
+                    <option value="mx">mxico</option>
+                    <option value="usa">USA</option>
+                </optgroup>
+            </select>
+            <br>
+            <label for="rem">Remmeber <u>M</u>e</label>
+            <input type="checkbox" id="rem" name="remmeber" accesskey="m">
+            <br>
+            <input type="submit" id="login" name="log">
+        </fieldset>
+
+    </form>
+</body>
+</html>
