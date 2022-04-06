@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1636643650 source:f:\programming\iti\c langauge\day4\decimal_hexa\main.c
+	<stdio.h>
+	<stdlib.h>
+

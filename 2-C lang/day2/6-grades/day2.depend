@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1636027839 source:f:\programming\iti\c langauge\day2\6-grades\main.c
+	<stdio.h>
+	<stdlib.h>
+

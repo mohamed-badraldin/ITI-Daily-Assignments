@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1637976301 source:f:\programming\iti\2-c lang\test\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+

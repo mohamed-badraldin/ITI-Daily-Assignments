@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1636032357 source:f:\programming\iti\c langauge\day2\task3\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1636285420 source:f:\programming\iti\c langauge\day2\2-even_odd\main.c
+	<stdio.h>
+	<stdlib.h>
+

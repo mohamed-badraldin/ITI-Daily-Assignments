@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1636265820 source:f:\programming\iti\c langauge\day2\task5\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1636285201 source:f:\programming\iti\c langauge\day2\4-sum\main.c
+	<stdio.h>
+	<stdlib.h>
+

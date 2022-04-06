@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1636638762 source:f:\programming\iti\c langauge\day6\task1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1636747687 source:f:\programming\iti\c langauge\day6\decimal_binary\main.c
+	<stdio.h>
+	<stdlib.h>
+

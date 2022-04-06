@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1636644960 source:f:\programming\iti\c langauge\day6\power\main.c
+	<stdio.h>
+	<stdlib.h>
+

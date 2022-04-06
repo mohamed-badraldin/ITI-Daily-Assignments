@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1636530806 source:f:\programming\iti\c langauge\day5\employee_struct\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1636530806 source:f:\programming\iti\2-c lang\day5\employee_struct\main.c
+	<stdio.h>
+	<stdlib.h>
+

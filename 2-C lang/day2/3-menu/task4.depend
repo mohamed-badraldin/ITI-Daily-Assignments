@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1636286782 source:f:\programming\iti\c langauge\day2\3-menu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+

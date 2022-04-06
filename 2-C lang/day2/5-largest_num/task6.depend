@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1636284914 source:f:\programming\iti\c langauge\day2\5-largest_num\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1637832988 source:c:\users\admin\desktop\day7\line_editor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+

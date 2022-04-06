@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1636035224 source:f:\programming\iti\c langauge\day2\task2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1636285621 source:f:\programming\iti\c langauge\day2\1-mangic_box\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
