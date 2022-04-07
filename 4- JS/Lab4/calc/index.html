@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=button]{
+            margin: 5px;
+            width: 45px;
+        }
+        #equal{
+            width: 104px;
+        }
+        #zero{
+            width: 163px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="sc">
+    <input type="button" value="C" onclick="clear_c(this.value)">
+    <input type="button" value="<<" onclick="clear_c(this.value)">
+    <br>
+    <input type="button" value="1" onclick="get(this.value)">
+    <input type="button" value="2" onclick="get(this.value)">
+    <input type="button" value="3" onclick="get(this.value)">
+    <input type="button" value="+" onclick="calc(this.value)">
+    <input type="button" value="-" onclick="calc(this.value)">
+    <br>
+    <input type="button" value="4" onclick="get(this.value)">
+    <input type="button" value="5" onclick="get(this.value)">
+    <input type="button" value="6" onclick="get(this.value)">
+    <input type="button" value="x" onclick="calc(this.value)">
+    <input type="button" value="/" onclick="calc(this.value)">
+    <br>
+    <input type="button" value="7" onclick="get(this.value)">
+    <input type="button" value="8" onclick="get(this.value)">
+    <input type="button" value="9" onclick="get(this.value)">
+    <input type="button" value="=" id="equal" onclick="equal()">
+    <br>
+    <input type="button" value="0" id="zero" onclick="get(this.value)">
+
+    <script src="script.js"></script>
+</body>
+</html>

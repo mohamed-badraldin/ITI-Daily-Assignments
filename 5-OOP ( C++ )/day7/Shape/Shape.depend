@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1639787005 source:f:\programming\iti\4- c++\day7\shape\main.cpp
+	<iostream>
+	"graphics.h"
+
+1638886985 f:\programming\iti\4- c++\day7\shape\graphics.h
+	<iostream>
+	<math.h>
+	<windows.h>
+	<Windows.h>
+

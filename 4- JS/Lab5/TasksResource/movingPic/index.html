@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #c1 {
+        position: absolute;
+        top: 40%;
+        left: 0px;
+      }
+      #c2 {
+        position: absolute;
+        top: 40%;
+        right: 0%;
+      }
+      #t {
+        position: absolute;
+        bottom: 0%;
+        left: 45%;
+      }
+      #div {
+        position: fixed;
+        border: 1px solid rebeccapurple;
+        width: 460px;
+        height: 559px;
+        left: 30%;
+        top: 3%;
+      }
+      #stop,#go{
+          position: absolute;
+          top:101%;
+          left: 60%;
+          display: block;
+          width: 100px;
+          height: 30px;
+          border-radius: 10px;
+          color:white;
+          background-color: red;
+          border: none;
+      }
+      #go{
+          background-color: green;
+            left: 16%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div">
+      <img src="icon1.gif" alt="" id="c1" />
+      <img src="icon2.gif" alt="" id="c2" />
+      <img src="TOP.JPG" alt="" id="t" />
+      <button id="stop" onclick="stop()">Reset</button>
+      <button id="go" onclick="go()">GO</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

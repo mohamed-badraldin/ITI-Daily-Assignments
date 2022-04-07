@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #holder {
+      margin: 80px auto;
+      width: 25%;
+    }
+  </style>
+  <body>
+    <div id="holder">
+      <label for="name">Enter Your Name :</label>
+      <input type="text" id="name" />
+      <br /><br />
+      <label for="age">Enter Your Age :&nbsp;&nbsp;&nbsp;</label>
+      <input type="number" id="age" />
+      <br />
+      <img src="1.jpg" alt="" style="width: 100px; margin-top: 20px" />
+      <img src="2.jpg" alt="" style="width: 180px" />
+      <br />
+      <input
+        type="radio"
+        id="m"
+        name="gender"
+        style="width: 200px; display: inline-block"
+      />
+      <input type="radio" id="f" name="gender" />
+      <br /><br />
+      <label for="color">Enter your color</label>
+      <input type="color" id="color"/>
+      <br /><br />
+      <input
+        type="button"
+        value="Register"
+        style="width: 300px; display: inline-block"
+        onclick="get_data()"
+      />
+      <script src="lib.js"></script>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
