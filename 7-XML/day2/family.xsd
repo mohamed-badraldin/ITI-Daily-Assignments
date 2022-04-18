@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    
+    <xs:element name="family">
+        <xs:complexType>
+            <xs:all>
+                <xs:element ref="grandfather"></xs:element>
+            </xs:all>
+        </xs:complexType>
+    </xs:element> 
+    
+    <xs:element name="grandfather">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element ref="father"></xs:element>
+                <xs:element name="uncle" type="xs:string" maxOccurs="2"></xs:element>
+                <xs:element ref="aunt"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="father">
+        <xs:complexType mixed="true">
+            <xs:group ref="fatherGroup"></xs:group>
+            <xs:attribute name="job" type="xs:string"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:group name="fatherGroup">
+        <xs:all>
+            <xs:element name="mother">
+                <xs:complexType>
+                    <xs:attribute name="name" type="xs:string"></xs:attribute>
+                </xs:complexType>
+            </xs:element>
+            
+            <xs:element name="daughter">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="age" type="xs:string"></xs:attribute>
+                            <xs:attribute name="job" default="football"></xs:attribute>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            
+            <xs:element name="son">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="age" type="xs:string"></xs:attribute>
+                            <xs:attribute name="sport" type="xs:string"></xs:attribute>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            
+        </xs:all>
+    </xs:group>
+    
+    <xs:element name="aunt">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="sons" type="xs:string"></xs:attribute>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    
+</xs:schema>
+
+
+        
+
